@@ -2113,7 +2113,7 @@ html.big-text
 	inset: 0;
 	z-index: 0;
 	pointer-events: none;
-	background: url(images/background-watermark.png) no-repeat center 56% / min(78vmin, 640px);
+	background: url(resources/images/background-watermark.png) no-repeat center 56% / min(78vmin, 640px);
 	opacity: 0.55;
 }
 header.hero, .stats, section, footer
