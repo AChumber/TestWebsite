@@ -1,0 +1,23 @@
+/* privacy.css: styles used only on this page */
+
+.item-row {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-lg-5 {
+  font-size: 1.75rem;
+  margin-top: 6px;
+}
+
+.list-grid-2 {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(min(380px, 100%), 1fr));
+}

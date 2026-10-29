@@ -1,0 +1,88 @@
+/* admissions.css: styles used only on this page */
+
+.list-grid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 34px;
+  grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr));
+}
+
+.para-text-muted-md-5 {
+  margin-top: 6px;
+  font-size: 1rem;
+  color: var(--color-text-muted);
+}
+
+.list-margin-top {
+  margin-top: 14px;
+}
+
+.heading-md-2 {
+  margin-top: 12px;
+  font-size: 1.312rem;
+}
+
+.item-list-style-position {
+  list-style: none;
+  position: relative;
+  padding: 22px 20px;
+}
+
+.para-text-teal {
+  color: var(--color-teal);
+}
+
+.block-margin-max-width {
+  margin: 0;
+  max-width: 720px;
+}
+
+.heading-lg-8 {
+  font-size: 1.625rem;
+  margin: 4px 0 14px;
+}
+
+.block-row-15 {
+  display: flex;
+  justify-content: center;
+}
+
+.label-text-accent-lg-floating {
+  position: absolute;
+  right: -26px;
+  top: 34px;
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.para-text-accent {
+  color: var(--color-accent);
+}
+
+.section-alpha-7 {
+  background: var(--color-alpha-7);
+}
+
+.label-ink-text-white-md {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--color-ink);
+  color: var(--color-white);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:
+    Bricolage Grotesque,
+    sans-serif;
+  font-size: 1.188rem;
+}
+
+@media (max-width: 600px) {
+  .label-text-accent-lg-floating {
+    display: none;
+  }
+}

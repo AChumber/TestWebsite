@@ -1,0 +1,121 @@
+/* policies.css: styles used only on this page */
+
+.heading-edge-accent-lg {
+  font-size: 1.625rem;
+  border-bottom: 3px solid var(--color-accent);
+  padding-bottom: 8px;
+}
+
+.block-row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.para-text-muted-md {
+  margin-top: 8px;
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+}
+
+.nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.para-text-muted-md-2 {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin: 6px 0 0;
+}
+
+.label-peach-text-brown {
+  background: var(--color-peach);
+  color: var(--color-brown);
+}
+
+.block-stack-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  scroll-margin-top: 20px;
+}
+
+.para-text-muted-md-3 {
+  margin-top: 10px;
+  font-size: 1.062rem;
+  color: var(--color-text-muted);
+}
+
+.section-padding-bottom-2 {
+  padding-bottom: 24px;
+}
+
+.list-md {
+  margin-top: 10px;
+  font-size: 1.125rem;
+}
+
+.para-text-muted-md-4 {
+  margin-top: 6px;
+  font-size: 1.062rem;
+  color: var(--color-text-muted);
+}
+
+.block-row-5 {
+  padding: 18px 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.field-white-md {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--color-teal);
+  border-radius: 12px;
+  background: var(--color-white);
+  font-size: 1.125rem;
+}
+
+.link-white-text-ink-md {
+  text-decoration: none;
+  font-weight: 700;
+  background: var(--color-white);
+  color: var(--color-ink);
+  border: 2px solid var(--color-teal);
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 1rem;
+}
+
+.block-flex-max-width {
+  flex: 1 1 320px;
+  max-width: 480px;
+}
+
+.label-sm-2 {
+  font-size: 0.9375rem;
+}
+
+.block-stack-18 {
+  flex: 1 1 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.link-overflow-wrap-font-weight {
+  overflow-wrap: anywhere;
+  font-weight: 700;
+}
+
+.label-font-weight-margin-bottom {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 6px;
+}

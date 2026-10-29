@@ -1,0 +1,8 @@
+/* accessibility.css: styles used only on this page */
+
+.block-stack-3 {
+  max-width: 860px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
