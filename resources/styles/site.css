@@ -810,8 +810,8 @@ textarea {
 }
 
 .image-white-2 {
-  height: 56px;
-  width: auto;
+  height: 80%;
+  width: 80%;
   display: block;
   background: var(--color-white);
   border-radius: 10px;
