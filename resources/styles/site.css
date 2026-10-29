@@ -248,7 +248,7 @@ main::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(resources/images/background-watermark.png) center
+  background: url(../images/background-watermark.png) center
     center/min(640px, 70vw) auto no-repeat;
   mix-blend-mode: multiply;
   opacity: 0.7;
